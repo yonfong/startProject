@@ -27,6 +27,7 @@
 		33187AF825492D8300E5B828 /* UIViewController+AppearanceConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AppearanceConfig.m"; sourceTree = "<group>"; };
 		33187AFB25492DD500E5B828 /* UINavigationController+AppearanceConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AppearanceConfig.h"; sourceTree = "<group>"; };
 		33187AFC25492DD500E5B828 /* UINavigationController+AppearanceConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AppearanceConfig.m"; sourceTree = "<group>"; };
+		33187B4B254949B200E5B828 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		3381106624AEB1E50024D065 /* startProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = startProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3381106924AEB1E50024D065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3381106A24AEB1E50024D065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +68,14 @@
 				33187AFC25492DD500E5B828 /* UINavigationController+AppearanceConfig.m */,
 			);
 			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		33187B4A2549499300E5B828 /* MacroConst */ = {
+			isa = PBXGroup;
+			children = (
+				33187B4B254949B200E5B828 /* Macros.h */,
+			);
+			path = MacroConst;
 			sourceTree = "<group>";
 		};
 		3381105D24AEB1E50024D065 = {
@@ -144,6 +153,7 @@
 		3381108624AEB31C0024D065 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				33187B4A2549499300E5B828 /* MacroConst */,
 				3381108724AEB3600024D065 /* Network */,
 			);
 			path = Classes;
