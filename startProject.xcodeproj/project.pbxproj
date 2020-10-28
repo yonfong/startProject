@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33187AF925492D8300E5B828 /* UIViewController+AppearanceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33187AF825492D8300E5B828 /* UIViewController+AppearanceConfig.m */; };
+		33187AFD25492DD500E5B828 /* UINavigationController+AppearanceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33187AFC25492DD500E5B828 /* UINavigationController+AppearanceConfig.m */; };
 		3381106B24AEB1E50024D065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381106A24AEB1E50024D065 /* AppDelegate.m */; };
 		3381107124AEB1E50024D065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381107024AEB1E50024D065 /* ViewController.m */; };
 		3381107424AEB1E50024D065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3381107224AEB1E50024D065 /* Main.storyboard */; };
@@ -21,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		33187AF325492C6E00E5B828 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		33187AF725492D8300E5B828 /* UIViewController+AppearanceConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AppearanceConfig.h"; sourceTree = "<group>"; };
+		33187AF825492D8300E5B828 /* UIViewController+AppearanceConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AppearanceConfig.m"; sourceTree = "<group>"; };
+		33187AFB25492DD500E5B828 /* UINavigationController+AppearanceConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AppearanceConfig.h"; sourceTree = "<group>"; };
+		33187AFC25492DD500E5B828 /* UINavigationController+AppearanceConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AppearanceConfig.m"; sourceTree = "<group>"; };
 		3381106624AEB1E50024D065 /* startProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = startProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3381106924AEB1E50024D065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3381106A24AEB1E50024D065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +58,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33187AF525492D3200E5B828 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				33187AF725492D8300E5B828 /* UIViewController+AppearanceConfig.h */,
+				33187AF825492D8300E5B828 /* UIViewController+AppearanceConfig.m */,
+				33187AFB25492DD500E5B828 /* UINavigationController+AppearanceConfig.h */,
+				33187AFC25492DD500E5B828 /* UINavigationController+AppearanceConfig.m */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
 		3381105D24AEB1E50024D065 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +88,7 @@
 		3381106824AEB1E50024D065 /* startProject */ = {
 			isa = PBXGroup;
 			children = (
+				33187AF525492D3200E5B828 /* AppConfig */,
 				3381108524AEB31C0024D065 /* AppEntry */,
 				3381108624AEB31C0024D065 /* Classes */,
 				3381108424AEB31C0024D065 /* Resources */,
@@ -231,9 +249,11 @@
 				3381106B24AEB1E50024D065 /* AppDelegate.m in Sources */,
 				3381109224AEB51D0024D065 /* YFNavigationController.m in Sources */,
 				3381107C24AEB1EA0024D065 /* main.m in Sources */,
+				33187AF925492D8300E5B828 /* UIViewController+AppearanceConfig.m in Sources */,
 				3381108A24AEB3780024D065 /* YFServerRequest.m in Sources */,
 				3381108F24AEB46C0024D065 /* YFProfileController.m in Sources */,
 				3381109524AEB5350024D065 /* YFTabBarController.m in Sources */,
+				33187AFD25492DD500E5B828 /* UINavigationController+AppearanceConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
