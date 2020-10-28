@@ -10,6 +10,9 @@
 		33187AF925492D8300E5B828 /* UIViewController+AppearanceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33187AF825492D8300E5B828 /* UIViewController+AppearanceConfig.m */; };
 		33187AFD25492DD500E5B828 /* UINavigationController+AppearanceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 33187AFC25492DD500E5B828 /* UINavigationController+AppearanceConfig.m */; };
 		33187B5125494D8400E5B828 /* YFMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33187B5025494D8400E5B828 /* YFMainController.m */; };
+		33187B8825496AE900E5B828 /* YFAccountItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33187B8525496AE900E5B828 /* YFAccountItem.mm */; };
+		33187B8C25496CD400E5B828 /* YFAccountManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33187B8B25496CD300E5B828 /* YFAccountManager.mm */; };
+		33187BA2254985D900E5B828 /* YFDatabaseManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33187BA1254985D800E5B828 /* YFDatabaseManager.mm */; };
 		3381106B24AEB1E50024D065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381106A24AEB1E50024D065 /* AppDelegate.m */; };
 		3381107124AEB1E50024D065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381107024AEB1E50024D065 /* ViewController.m */; };
 		3381107424AEB1E50024D065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3381107224AEB1E50024D065 /* Main.storyboard */; };
@@ -32,6 +35,13 @@
 		33187B4B254949B200E5B828 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
 		33187B4F25494D8400E5B828 /* YFMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFMainController.h; sourceTree = "<group>"; };
 		33187B5025494D8400E5B828 /* YFMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFMainController.m; sourceTree = "<group>"; };
+		33187B8525496AE900E5B828 /* YFAccountItem.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YFAccountItem.mm; sourceTree = "<group>"; };
+		33187B8625496AE900E5B828 /* YFAccountItem+WCTTableCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YFAccountItem+WCTTableCoding.h"; sourceTree = "<group>"; };
+		33187B8725496AE900E5B828 /* YFAccountItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFAccountItem.h; sourceTree = "<group>"; };
+		33187B8A25496CD300E5B828 /* YFAccountManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFAccountManager.h; sourceTree = "<group>"; };
+		33187B8B25496CD300E5B828 /* YFAccountManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YFAccountManager.mm; sourceTree = "<group>"; };
+		33187BA0254985D800E5B828 /* YFDatabaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YFDatabaseManager.h; sourceTree = "<group>"; };
+		33187BA1254985D800E5B828 /* YFDatabaseManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YFDatabaseManager.mm; sourceTree = "<group>"; };
 		3381106624AEB1E50024D065 /* startProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = startProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3381106924AEB1E50024D065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3381106A24AEB1E50024D065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +128,20 @@
 				33187B5025494D8400E5B828 /* YFMainController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		33187B8025496A8000E5B828 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33187B8525496AE900E5B828 /* YFAccountItem.mm */,
+				33187B8625496AE900E5B828 /* YFAccountItem+WCTTableCoding.h */,
+				33187B8725496AE900E5B828 /* YFAccountItem.h */,
+				33187B8A25496CD300E5B828 /* YFAccountManager.h */,
+				33187B8B25496CD300E5B828 /* YFAccountManager.mm */,
+				33187BA0254985D800E5B828 /* YFDatabaseManager.h */,
+				33187BA1254985D800E5B828 /* YFDatabaseManager.mm */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		3381105D24AEB1E50024D065 = {
@@ -216,6 +240,7 @@
 		3381108B24AEB4580024D065 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				33187B8025496A8000E5B828 /* Model */,
 				3381108C24AEB4580024D065 /* Controller */,
 			);
 			path = Profile;
@@ -344,11 +369,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33187B8C25496CD400E5B828 /* YFAccountManager.mm in Sources */,
 				3381107124AEB1E50024D065 /* ViewController.m in Sources */,
 				3381106B24AEB1E50024D065 /* AppDelegate.m in Sources */,
+				33187BA2254985D900E5B828 /* YFDatabaseManager.mm in Sources */,
 				3381109224AEB51D0024D065 /* YFNavigationController.m in Sources */,
 				33187B5125494D8400E5B828 /* YFMainController.m in Sources */,
 				3381107C24AEB1EA0024D065 /* main.m in Sources */,
+				33187B8825496AE900E5B828 /* YFAccountItem.mm in Sources */,
 				33187AF925492D8300E5B828 /* UIViewController+AppearanceConfig.m in Sources */,
 				3381108A24AEB3780024D065 /* YFServerRequest.m in Sources */,
 				3381108F24AEB46C0024D065 /* YFProfileController.m in Sources */,
