@@ -1,0 +1,66 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - FDFullscreenPopGesture (1.1)
+  - IQKeyboardManager (6.5.6)
+  - JXCategoryView (1.5.8)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+  - "UIView+YFMBProgressHUD (0.2.0)":
+    - MBProgressHUD
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet (~> 1.8.1)
+  - FDFullscreenPopGesture (from `https://github.com/yonfong/FDFullscreenPopGesture.git`)
+  - IQKeyboardManager (~> 6.5.6)
+  - JXCategoryView (~> 1.5.8)
+  - Masonry (~> 1.1.0)
+  - MJRefresh (~> 3.5.0)
+  - SDWebImage (~> 5.9.4)
+  - "UIView+YFMBProgressHUD (from `https://github.com/yonfong/UIView-MBProgressHUD.git`)"
+  - YYModel (~> 1.0.4)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - DZNEmptyDataSet
+    - IQKeyboardManager
+    - JXCategoryView
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYModel
+
+EXTERNAL SOURCES:
+  FDFullscreenPopGesture:
+    :git: https://github.com/yonfong/FDFullscreenPopGesture.git
+  "UIView+YFMBProgressHUD":
+    :git: https://github.com/yonfong/UIView-MBProgressHUD.git
+
+CHECKOUT OPTIONS:
+  FDFullscreenPopGesture:
+    :commit: a6f13e1722a6c5ca703f9614c262fb22944ca38d
+    :git: https://github.com/yonfong/FDFullscreenPopGesture.git
+  "UIView+YFMBProgressHUD":
+    :commit: ae865e548073cc82df4483c0ba9c8038c144f022
+    :git: https://github.com/yonfong/UIView-MBProgressHUD.git
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  "UIView+YFMBProgressHUD": 9c5928c629d7bd9ebd0cbdae0c0ff1c620c2c947
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 43a0b838c53e3cf3d19410e8e8bc4202792d77d6
+
+COCOAPODS: 1.10.0
