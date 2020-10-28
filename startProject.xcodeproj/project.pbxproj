@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33187AF325492C6E00E5B828 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3381106624AEB1E50024D065 /* startProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = startProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3381106924AEB1E50024D065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3381106A24AEB1E50024D065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				3381107A24AEB1EA0024D065 /* Info.plist */,
+				33187AF325492C6E00E5B828 /* PrefixHeader.pch */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -142,8 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				3381108C24AEB4580024D065 /* Controller */,
-				3381108D24AEB46C0024D065 /* YFProfileController.h */,
-				3381108E24AEB46C0024D065 /* YFProfileController.m */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -151,6 +151,8 @@
 		3381108C24AEB4580024D065 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3381108D24AEB46C0024D065 /* YFProfileController.h */,
+				3381108E24AEB46C0024D065 /* YFProfileController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -373,6 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 243NU3NRY6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/startProject/SupportingFiles/PrefixHeader.pch";
 				INFOPLIST_FILE = startProject/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -391,6 +394,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 243NU3NRY6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/startProject/SupportingFiles/PrefixHeader.pch";
 				INFOPLIST_FILE = startProject/SupportingFiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
