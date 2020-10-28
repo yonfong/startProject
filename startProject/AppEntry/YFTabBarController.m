@@ -8,6 +8,7 @@
 
 #import "YFTabBarController.h"
 #import "YFNavigationController.h"
+#import "YFMainController.h"
 #import "YFProfileController.h"
 
 @interface YFTabBarController ()
@@ -32,15 +33,17 @@
 }
 
 - (void)setupViewControllers {
+    UIViewController *mainCtl = [[YFMainController alloc] init];
     UIViewController *profileCtl = [[YFProfileController alloc] init];
     
     self.viewControllers = @[
+                             [self addNavigationItemForViewController:mainCtl],
                              [self addNavigationItemForViewController:profileCtl]
-                             ];
+                            ];
     
 
-    NSArray *titles = @[@"我的"];
-    NSArray *images = @[@"icon_tabbar_profile"];
+    NSArray *titles = @[@"首页", @"我的"];
+    NSArray *images = @[@"icon_tabbar_main", @"icon_tabbar_profile"];
     
     [self.tabBar.items enumerateObjectsUsingBlock:^(UITabBarItem *item, NSUInteger idx, BOOL *stop) {
         item.tag = idx;
