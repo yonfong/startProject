@@ -15,6 +15,7 @@
 #import "UIViewController+AppearanceConfig.h"
 #import "UINavigationController+FDFullscreenPopGesture.h"
 #import "UIView+YFMBProgressHUD.h"
+#import "UIColor+AppConfig.h"
 #import "Macros.h"
 
 #endif /* PrefixHeader_pch */
