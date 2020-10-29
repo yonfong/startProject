@@ -20,5 +20,7 @@ target 'startProject' do
   pod 'UIView+YFMBProgressHUD', :git => 'https://github.com/yonfong/UIView-MBProgressHUD.git'
   pod 'WCDB', '~> 1.0.7.5'
   pod 'FCFileManager', '~> 1.0.20'
+  pod 'UIButton-SSEdgeInsets'
+  pod 'Colours'
   
 end

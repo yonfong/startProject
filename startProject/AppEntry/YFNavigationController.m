@@ -1,6 +1,6 @@
 //
 //  YFNavigationController.m
-//  baike
+//  startProject
 //
 //  Created by sky on 2020/7/3.
 //  Copyright © 2020 Sky. All rights reserved.
@@ -26,7 +26,7 @@
     self.navigationBar.translucent = NO;
     // 设置导航栏的标题颜色，字体
     NSDictionary *textAttrs = @{NSForegroundColorAttributeName:
-                                    [UIColor whiteColor],
+                                    [UIColor blackColor],
                                 NSFontAttributeName:
                                     [UIFont systemFontOfSize:18],
                                 };

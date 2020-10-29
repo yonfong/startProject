@@ -1,4 +1,7 @@
 PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
   - DZNEmptyDataSet (1.8.1)
   - FCFileManager (1.0.20)
   - FDFullscreenPopGesture (1.1)
@@ -12,6 +15,7 @@ PODS:
   - SDWebImage/Core (5.9.4)
   - SQLiteRepairKit (1.2.2):
     - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - UIButton-SSEdgeInsets (0.1.7)
   - "UIView+YFMBProgressHUD (0.2.0)":
     - MBProgressHUD
   - WCDB (1.0.7.5):
@@ -21,6 +25,7 @@ PODS:
   - YYModel (1.0.4)
 
 DEPENDENCIES:
+  - Colours
   - DZNEmptyDataSet (~> 1.8.1)
   - FCFileManager (~> 1.0.20)
   - FDFullscreenPopGesture (from `https://github.com/yonfong/FDFullscreenPopGesture.git`)
@@ -29,12 +34,14 @@ DEPENDENCIES:
   - Masonry (~> 1.1.0)
   - MJRefresh (~> 3.5.0)
   - SDWebImage (~> 5.9.4)
+  - UIButton-SSEdgeInsets
   - "UIView+YFMBProgressHUD (from `https://github.com/yonfong/UIView-MBProgressHUD.git`)"
   - WCDB (~> 1.0.7.5)
   - YYModel (~> 1.0.4)
 
 SPEC REPOS:
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - Colours
     - DZNEmptyDataSet
     - FCFileManager
     - IQKeyboardManager
@@ -44,6 +51,7 @@ SPEC REPOS:
     - MJRefresh
     - SDWebImage
     - SQLiteRepairKit
+    - UIButton-SSEdgeInsets
     - WCDB
     - WCDBOptimizedSQLCipher
     - YYModel
@@ -63,6 +71,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/yonfong/UIView-MBProgressHUD.git
 
 SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FCFileManager: e0f73316e6aa2eb04d2ff4caa75fe7df1ae44270
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
@@ -73,11 +82,12 @@ SPEC CHECKSUMS:
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  UIButton-SSEdgeInsets: 64a600adc670d98e140ddcde1d0e64d7b952502c
   "UIView+YFMBProgressHUD": 9c5928c629d7bd9ebd0cbdae0c0ff1c620c2c947
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 4e66fa2d9e82a636dce47f32aeb3f9b1b4708378
+PODFILE CHECKSUM: 49b2e49068152bb0ffad00e2ca019635f0c0df60
 
 COCOAPODS: 1.10.0
