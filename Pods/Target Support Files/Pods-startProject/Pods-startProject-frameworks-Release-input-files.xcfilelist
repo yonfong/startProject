@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-startProject/Pods-startProject-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/Colours/Colours.framework
 ${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework
 ${BUILT_PRODUCTS_DIR}/FCFileManager/FCFileManager.framework
@@ -14,4 +15,6 @@ ${BUILT_PRODUCTS_DIR}/UIButton-SSEdgeInsets/UIButton_SSEdgeInsets.framework
 ${BUILT_PRODUCTS_DIR}/UIView+YFMBProgressHUD/UIView_YFMBProgressHUD.framework
 ${BUILT_PRODUCTS_DIR}/WCDB/WCDB.framework
 ${BUILT_PRODUCTS_DIR}/WCDBOptimizedSQLCipher/sqlcipher.framework
+${BUILT_PRODUCTS_DIR}/YBNetwork/YBNetwork.framework
+${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
 ${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework

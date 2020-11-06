@@ -22,5 +22,6 @@ target 'startProject' do
   pod 'FCFileManager', '~> 1.0.20'
   pod 'UIButton-SSEdgeInsets'
   pod 'Colours'
+  pod 'YBNetwork', '~> 1.0.6'
   
 end
