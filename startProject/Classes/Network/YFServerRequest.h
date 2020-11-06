@@ -7,10 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <YBNetwork/YBBaseRequest.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YFServerRequest : NSObject
+@interface YFServerRequest : YBBaseRequest
+
++ (instancetype)POST:(NSString *)URLString
+          parameters:(nullable id)parameters
+             success:(nullable YBRequestSuccessBlock)success
+             failure:(nullable YBRequestFailureBlock)failure;
+
++ (instancetype)GET:(NSString *)URLString
+         parameters:(nullable id)parameters
+            success:(nullable YBRequestSuccessBlock)success
+            failure:(nullable YBRequestFailureBlock)failure;
+
 
 @end
 
