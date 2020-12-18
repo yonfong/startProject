@@ -11,7 +11,7 @@ target 'startProject' do
 
   pod 'Masonry', '~> 1.1.0'
   pod 'YYModel', '~> 1.0.4'
-  pod 'SDWebImage', '~> 5.9.4'
+  pod 'SDWebImage', '~> 5.10.0'
   pod 'MJRefresh', '~> 3.5.0'
   pod 'JXCategoryView', '~> 1.5.8'
   pod 'IQKeyboardManager', '~> 6.5.6'

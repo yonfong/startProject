@@ -25,9 +25,9 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.5.0)
-  - SDWebImage (5.9.4):
-    - SDWebImage/Core (= 5.9.4)
-  - SDWebImage/Core (5.9.4)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
   - SQLiteRepairKit (1.2.2):
     - WCDBOptimizedSQLCipher (~> 1.2.0)
   - UIButton-SSEdgeInsets (0.1.7)
@@ -52,7 +52,7 @@ DEPENDENCIES:
   - JXCategoryView (~> 1.5.8)
   - Masonry (~> 1.1.0)
   - MJRefresh (~> 3.5.0)
-  - SDWebImage (~> 5.9.4)
+  - SDWebImage (~> 5.10.0)
   - UIButton-SSEdgeInsets
   - "UIView+YFMBProgressHUD (from `https://github.com/yonfong/UIView-MBProgressHUD.git`)"
   - WCDB (~> 1.0.7.5)
@@ -104,7 +104,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
-  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
   UIButton-SSEdgeInsets: 64a600adc670d98e140ddcde1d0e64d7b952502c
   "UIView+YFMBProgressHUD": 9c5928c629d7bd9ebd0cbdae0c0ff1c620c2c947
@@ -114,6 +114,6 @@ SPEC CHECKSUMS:
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: a0c39685d6abd03449b642e8fb93865a8a72ddf7
+PODFILE CHECKSUM: c3ba6dd947ab3e1d66807d938fea5d945dfa9bf6
 
 COCOAPODS: 1.10.0

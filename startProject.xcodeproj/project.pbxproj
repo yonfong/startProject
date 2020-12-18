@@ -15,7 +15,6 @@
 		33187BA2254985D900E5B828 /* YFDatabaseManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33187BA1254985D800E5B828 /* YFDatabaseManager.mm */; };
 		333E2ABA254A7F6C00A96113 /* UIColor+AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 333E2AB9254A7F6C00A96113 /* UIColor+AppConfig.m */; };
 		3381106B24AEB1E50024D065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381106A24AEB1E50024D065 /* AppDelegate.m */; };
-		3381107124AEB1E50024D065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381107024AEB1E50024D065 /* ViewController.m */; };
 		3381107424AEB1E50024D065 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3381107224AEB1E50024D065 /* Main.storyboard */; };
 		3381107624AEB1EA0024D065 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3381107524AEB1EA0024D065 /* Assets.xcassets */; };
 		3381107924AEB1EA0024D065 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3381107724AEB1EA0024D065 /* LaunchScreen.storyboard */; };
@@ -48,8 +47,6 @@
 		3381106624AEB1E50024D065 /* startProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = startProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3381106924AEB1E50024D065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3381106A24AEB1E50024D065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3381106F24AEB1E50024D065 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3381107024AEB1E50024D065 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3381107324AEB1E50024D065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3381107524AEB1EA0024D065 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3381107824AEB1EA0024D065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -176,8 +173,6 @@
 				3381108424AEB31C0024D065 /* Resources */,
 				3381108224AEB31C0024D065 /* Sections */,
 				3381108324AEB31C0024D065 /* SupportingFiles */,
-				3381106F24AEB1E50024D065 /* ViewController.h */,
-				3381107024AEB1E50024D065 /* ViewController.m */,
 				3381107224AEB1E50024D065 /* Main.storyboard */,
 				3381107724AEB1EA0024D065 /* LaunchScreen.storyboard */,
 			);
@@ -375,7 +370,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				33187B8C25496CD400E5B828 /* YFAccountManager.mm in Sources */,
-				3381107124AEB1E50024D065 /* ViewController.m in Sources */,
 				3381106B24AEB1E50024D065 /* AppDelegate.m in Sources */,
 				33187BA2254985D900E5B828 /* YFDatabaseManager.mm in Sources */,
 				3381109224AEB51D0024D065 /* YFNavigationController.m in Sources */,
